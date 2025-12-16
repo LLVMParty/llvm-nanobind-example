@@ -1,0 +1,19 @@
+version = 1
+revision = 3
+requires-python = ">=3.12"
+
+[[package]]
+name = "llvm-nanobind"
+version = "0.0.1"
+source = { git = "https://github.com/LLVMParty/llvm-nanobind#ae43a927b19f3fcd093b8bae7ffffd7a4951d3ce" }
+
+[[package]]
+name = "llvm-nanobind-example"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "llvm-nanobind" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "llvm-nanobind", git = "https://github.com/LLVMParty/llvm-nanobind" }]
