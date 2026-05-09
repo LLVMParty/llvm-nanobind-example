@@ -4,10 +4,10 @@ Super basic [llvm-nanobind](https://github.com/LLVMParty/llvm-nanobind) example 
 
 ## Building
 
-Set the CMake prefix path to point to your LLVM installation:
+Allow CMake to find your LLVM installation:
 
 ```bash
-export CMAKE_PREFIX_PATH=$(brew --prefix llvm)
+export LLVM_ROOT=$(brew --prefix llvm)
 ```
 
 Set up the environment:
