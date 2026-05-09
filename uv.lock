@@ -5,7 +5,7 @@ requires-python = ">=3.12"
 [[package]]
 name = "llvm-nanobind"
 version = "0.0.1"
-source = { git = "https://github.com/LLVMParty/llvm-nanobind#ae43a927b19f3fcd093b8bae7ffffd7a4951d3ce" }
+source = { git = "https://github.com/LLVMParty/llvm-nanobind#a681b3656e868fc085ce377fbe395007ff991716" }
 
 [[package]]
 name = "llvm-nanobind-example"
