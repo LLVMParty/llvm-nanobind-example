@@ -2,21 +2,15 @@
 
 Super basic [llvm-nanobind](https://github.com/LLVMParty/llvm-nanobind) example project.
 
-## Building
+## Running
 
-Allow CMake to find your LLVM installation:
-
-```bash
-export LLVM_ROOT=$(brew --prefix llvm)
-```
-
-Set up the environment:
+Set up the environment. The `llvm-nanobind` wheel is installed from PyPI and bundles LLVM for supported platforms.
 
 ```bash
 uv sync
 ```
 
-Run the example
+Run the example:
 
 ```bash
 uv run example.py
