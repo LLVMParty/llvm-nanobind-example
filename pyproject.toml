@@ -5,5 +5,5 @@ description = "Super basic llvm-nanobind example project"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "llvm-nanobind==21.1.6.1",
+    "llvm-nanobind==21.1.6.2",
 ]
